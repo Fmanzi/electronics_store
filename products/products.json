@@ -1,0 +1,303 @@
+[
+    {
+        "id": 25,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+    },
+    {
+        "id": 26,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+    },
+    {
+        "id": 27,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+    },
+    {
+        "id": 28,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+    },    
+    {
+        "id": 1,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto? ***Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 2,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 3,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 4,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 5,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 6,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 7,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 8,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 9,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 10,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 11,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 12,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 13,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 14,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 15,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 16,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 17,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 18,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 19,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 20,
+        "title": "Amaya TK 03 wireless earbuds",
+        "category": "pods",
+        "price": 1700,
+        "originalPrice": 2000,
+        "image": "./img/amaya_pods.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 21,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    },
+    {
+        "id": 22,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    }
+    ,
+    {
+        "id": 23,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+
+
+    }
+    ,
+    {
+        "id": 24,
+        "title": "Pure Garment Dyed Cotton Shirt",
+        "category": "Shirt",
+        "price": 800,
+        "originalPrice": 1000,
+        "image": "./img/shirt-2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur. Harum rerum et libero quam vitae molestias sit? Nostrum fuga quibusdam aspernatur totam commodi soluta tenetur? Labore suscipit corrupti ea tempore reiciendis est unde blanditiis expedita repudiandae deleniti deserunt perferendis, dolorum corporis natus laborum repellat autem sapiente hic, quaerat iusto?"
+    }
+    
+]
