@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomerce Website</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ********************Header******************** -->
+    <header>
+      <!-- Nav  -->
+      <div class="nav container">
+        <a href="#" class="logo">Android<span>Express</span></a>
+
+        <p style="color: hsl(0, 100%, 70%)">Free delivery within NAIROBI CBD</p>
+        <!-- cart icon  -->
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+
+        <!-- **************  CART *************************** -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!-- ********* Cart conten ************************ -->
+          <div class="cart-content">
+            <!-- **********************************cart box  -->
+            <!-- <div class="cart-box">
+              <img src="img/clothes-2.jpg" alt="" class="cart-img" />
+              <div class="detail-box">
+                <div class="cart-product-title">Clothing</div>
+                <div class="cart-price">Ksh. 350</div>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  value="1"
+                  class="cart-quantity"
+                />
+              </div>
+              
+              <i class="bx bxs-trash-alt cart-remove"></i>
+            </div> -->
+          </div>
+
+          <!-- ***************************************************************** -->
+          <div class="showcase">
+            <a href="#" class="showcase-img-box">
+              <img
+                src="./img/amaya_pods.jpg"
+                alt="relaxed short full sleeve t-shirt"
+                width="70"
+                class="showcase-img"
+              />
+            </a>
+
+            <div class="showcase-content">
+              <a href="#">
+                <h4 class="showcase-title">
+                  Relaxed Short full Sleeve T-Shirt
+                </h4>
+              </a>
+              <!-- <i class="bx bxs-trash-alt cart-remove"></i> -->
+
+              <!-- <a href="#" class="showcase-category">Clothes</a> -->
+
+              <div class="price-box">
+                <p class="price">$45.00</p>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  value="1"
+                  class="cart-quantity"
+                />
+                <p>$12.00</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ***************************************************************** -->
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Ksh 0.00</div>
+          </div>
+          <!-- ************BUY ************** -->
+          <button type="button" class="btn-buy">Buy Now</button>
+
+          <!-- ********************** Cart close ****************** -->
+          <!-- <i class="bx bx-x" id="close-cart"></i> -->
+          <i class="bx bx-x-circle" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ************************SHOP***************************** -->
+
+    <section class="shop container">
+      <!-- <h2 class="section-title">Shop Products</h2> -->
+      <!-- filter  -->
+      <div class="products-filter container">
+        <span class="filter-item active-filter" data-filter="all">Home</span>
+        <span class="filter-item" data-filter="design">Smart Watches</span>
+        <span class="filter-item" data-filter="tech">Earpods</span>
+        <span class="filter-item" data-filter="mobile">Mobile Phones</span>
+        <span class="filter-item" data-filter="mobile">Powerbanks</span>
+        <span class="filter-item" data-filter="mobile">Laptops</span>
+      </div>
+    </section>
+
+    <!-- ********************* Products filter ********************* -->
+
+    <!-- ******************* CART CONTAINER *************************** -->
+    <div class="cart container">
+      <div class="title">Your Cart</div>
+    </div>
+
+    <!-- *********************** FOOTER *************** -->
+    <div class="outerfooter">
+      <div class="footer container">
+        <p>&#169; 2024, AndroidExpress. All Rights Reserved</p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************** link to js ********************* -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+          name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+          var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+          var results = regex.exec(location.search);
+          return results === null
+            ? ""
+            : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        // Get product ID from URL parameter
+        var productId = getUrlParameter("productId");
+
+        // Fetch product details based on product ID
+        fetch("./products/products.json")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+          })
+          .then((productsData) => {
+            // Find the product with the matching ID
+            var product = productsData.find(
+              (product) => product.id == productId
+            );
+            if (product) {
+              fillProductDetails(product);
+              // Get related products based on some criteria (e.g., products from the same category)
+              var relatedProducts = productsData
+                .filter(
+                  (p) => p.category === product.category && p.id !== product.id
+                )
+                .slice(0, 8); // Limit to 8 related products
+              displayRelatedProducts(relatedProducts);
+            } else {
+              console.error("Product not found");
+            }
+          })
+          .catch((error) => {
+            console.error("Error fetching or processing data:", error);
+          });
+
+        // Function to fill product details into the HTML
+        function fillProductDetails(product) {
+          // Code for filling product details (as previously implemented)
+          var productName = document.querySelector(".detail .name");
+          var productImage = document.querySelector(".detail .image img");
+          var productPrice = document.querySelector(".detail .price");
+          var productDescription = document.querySelector(
+            ".detail .description"
+          );
+
+          if (productName) {
+            productName.textContent = product.title || "";
+          }
+          if (productImage) {
+            productImage.src = product.image || "";
+            productImage.alt = product.title || "";
+          }
+          if (productPrice) {
+            productPrice.textContent = ` Ksh. ${product.price || ""}`;
+          }
+          if (productDescription) {
+            productDescription.textContent = product.description || "";
+          }
+        }
+
+        // Function to display related products
+        // Function to display related products
+        function displayRelatedProducts(relatedProducts) {
+          var relatedProductsContainer = document.querySelector(
+            ".related-products .products"
+          );
+          if (!relatedProductsContainer) return;
+
+          // Clear existing content in case this function is called multiple times
+          relatedProductsContainer.innerHTML = "";
+
+          // Create a container for related products
+          var container = document.createElement("div");
+          container.classList.add("shop-content", "container");
+
+          relatedProducts.forEach((product) => {
+            var productBox = document.createElement("div");
+            productBox.classList.add("product-box");
+
+            var productImg = document.createElement("img");
+            productImg.src = product.image || "placeholder.jpg";
+            productImg.alt = product.title || "Product Image";
+            productImg.classList.add("product-img");
+            productBox.appendChild(productImg);
+
+            var categoryLink = document.createElement("a");
+            categoryLink.href = "#"; // You can set the category link here if available
+            categoryLink.classList.add("showcase-category");
+            categoryLink.textContent = product.category || "Category";
+            productBox.appendChild(categoryLink);
+
+            var titleLink = document.createElement("a");
+            titleLink.href = `product_details.html?productId=${product.id}`;
+            titleLink.classList.add("showcase-title");
+            titleLink.textContent = product.title || "Product Title";
+            var productTitle = document.createElement("h3");
+            productTitle.appendChild(titleLink);
+            productBox.appendChild(productTitle);
+
+            var priceBox = document.createElement("div");
+            priceBox.classList.add("price-box");
+
+            var price = document.createElement("p");
+            price.classList.add("price");
+            price.textContent = `Ksh. ${product.price || ""}`;
+            priceBox.appendChild(price);
+
+            if (product.originalPrice) {
+              var originalPrice = document.createElement("del");
+              originalPrice.textContent = `Ksh. ${product.originalPrice}`;
+              priceBox.appendChild(originalPrice);
+            }
+
+            productBox.appendChild(priceBox);
+
+            var addToCartIcon = document.createElement("i");
+            addToCartIcon.classList.add("bx", "bx-shopping-bag", "add-cart");
+            productBox.appendChild(addToCartIcon);
+
+            container.appendChild(productBox);
+          });
+
+          // Append the container with related products to the relatedProductsContainer
+          relatedProductsContainer.appendChild(container);
+        }
+      });
+    </script>
+  </body>
+</html>
