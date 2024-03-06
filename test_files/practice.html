@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <!-- *******************Box icon *********** -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+      }
+      body {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .container {
+        border-radius: 10px;
+      }
+      table {
+        width: 50%;
+        margin: auto;
+      }
+      thead {
+        background-color: #ccc;
+      }
+      tr {
+        height: 2rem;
+        align-content: center;
+        justify-content: center;
+      }
+      td {
+        padding: 10px;
+        /* font-weight: bold; */
+      }
+      .total td {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Qty</th>
+            <th>Description</th>
+            <th>@</th>
+            <th>Totoal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="receiptItem">
+            <td>10</td>
+            <td>Ofia Huntop</td>
+            <td>90</td>
+            <td>900</td>
+          </tr>
+          <tr class="receiptItem">
+            <td>15</td>
+            <td>Dr Lee</td>
+            <td>45</td>
+            <td>625</td>
+          </tr>
+          <tr class="receiptItem">
+            <td>20</td>
+            <td>Ofia</td>
+            <td>30</td>
+            <td>600</td>
+          </tr>
+          <tr class="receiptItem">
+            <td>20</td>
+            <td>Cable</td>
+            <td>30</td>
+            <td>600</td>
+          </tr>
+          <tr class="total">
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td>600</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script>
+      let itemArray = document.querySelectorAll(".receiptItem");
+      //   let item;
+      let objectsArray = [];
+      for (let i = 0; i < itemArray.length; i++) {
+        // console.log(itemArray[i].innerHTML);
+        // create a new object
+        let newObj = {};
+        // add obj properties and values
+        // newObj.qty = 10;
+        newObj.qty = itemArray[i].firstChild;
+        // append obj to obj Array
+        objectsArray.push(newObj);
+      }
+
+      console.log(objectsArray.qty);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoRead - Your Ultimate Read-Aloud Companion</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+      }
+
+      header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      .main-content {
+        padding: 20px;
+        text-align: center;
+      }
+
+      p {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+
+      .file-upload {
+        background-color: #fff;
+        border: 2px dashed #007bff;
+        border-radius: 8px;
+        padding: 20px;
+        cursor: pointer;
+      }
+
+      .file-upload-icon {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+
+      .file-upload-text {
+        font-size: 24px;
+      }
+
+      input[type="file"] {
+        display: none;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to RoRead</h1>
+      <p>Your Ultimate Read-Aloud Companion</p>
+    </header>
+    <div class="main-content">
+      <h2>Upload or Drag and Drop Your Document Here!</h2>
+      <div
+        class="file-upload"
+        onclick="document.getElementById('fileInput').click()"
+      >
+        <i class="fas fa-cloud-upload-alt file-upload-icon"></i>
+        <div class="file-upload-text">Drag & Drop or Click to Upload</div>
+      </div>
+      <input
+        type="file"
+        id="fileInput"
+        accept=".pdf,.epub,.mobi,.docx,.txt,.rtf,.html"
+        onchange="handleFileUpload(event)"
+      />
+      <p>Supported formats: PDF, EPUB, MOBI, DOCX, TXT, RTF, HTML</p>
+      <button onclick="explore()">Explore Now</button>
+    </div>
+
+    <script>
+      function handleFileUpload(event) {
+        const file = event.target.files[0];
+        // Do something with the uploaded file
+        console.log("Uploaded file:", file.name);
+      }
+
+      function explore() {
+        // Redirect or perform further action upon exploration
+        console.log("Exploring...");
+      }
+    </script>
+  </body>
+</html>

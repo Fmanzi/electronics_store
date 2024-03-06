@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomerce Website</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ********************Header******************** -->
+    <header>
+      <!-- Nav  -->
+      <div class="nav container">
+        <a href="#" class="logo">Android<span>Express</span></a>
+
+        <p class="scoll_banner" style="color: hsl(0, 100%, 70%)">
+          Free delivery within NAIROBI CBD
+        </p>
+        <!-- cart icon  -->
+        <!-- <i class="bx bx-shopping-bag" id="cart-icon"></i> -->
+        <!-- Cart icon with counter -->
+        <div class="cart-icon-container">
+          <i class="bx bx-shopping-bag" id="cart-icon"></i>
+          <span id="cart-counter">0</span>
+        </div>
+
+        <!-- **************  CART *************************** -->
+        <div class="cart">
+          <div class="cart-header"></div>
+          <h2 class="cart-title">Items in your cart</h2>
+          <hr />
+          <!-- ********* Cart conten ************************ -->
+          <div class="cart-content container">
+            <!-- *****************cart box 1********** -->
+            <div class="cart-box">
+              <img src="img/amaya_pods.jpg" alt="" class="cart-img" />
+              <div class="detail-box">
+                <div class="cart-product-title">Amaya TK 03 wireless</div>
+                <div class="cart-price">Ksh. 350</div>
+              </div>
+              <div class="cart-quantity">
+                <button>+</button>
+                <span class="value">3</span>
+                <button>-</button>
+              </div>
+            </div>
+            <div class="cart-box">
+              <img src="img/amaya_pods.jpg" alt="" class="cart-img" />
+              <div class="detail-box">
+                <div class="cart-product-title">Amaya TK 03 wireless</div>
+                <div class="cart-price">Ksh. 350</div>
+              </div>
+              <div class="cart-quantity">
+                <button>+</button>
+                <span class="value">3</span>
+                <button>-</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Ksh 0.00</div>
+          </div>
+          <!-- ************BUY ************** -->
+          <div class="buttons">
+            <div class="checkout btn-buy">
+              <a href="./checkout.html">Place Order </a>
+            </div>
+          </div>
+          <!-- <button type="button" class="btn-buy">Place Order</button> -->
+
+          <!-- ********************** Cart close ****************** -->
+          <!-- <i class="bx bx-x" id="close-cart"></i> -->
+          <i class="bx bx-x-circle" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ************************SHOP***************************** -->
+
+    <section class="shop container">
+      <!-- <h2 class="section-title">Shop Products</h2> -->
+      <!-- filter  -->
+      <div class="products-filter container">
+        <span class="filter-item active-filter" data-filter="all">Home</span>
+        <span class="filter-item" data-filter="design">Smart Watches</span>
+        <span class="filter-item" data-filter="tech">Earpods</span>
+        <span class="filter-item" data-filter="mobile">Mobile Phones</span>
+        <span class="filter-item" data-filter="mobile">Powerbanks</span>
+        <span class="filter-item" data-filter="mobile">Laptops</span>
+      </div>
+    </section>
+
+    <!-- ******************* Posts *************************** -->
+    <!-- *************** Contents *************************************88 -->
+
+    <div class="container">
+      <div class="checkout-layout">
+        <div class="returncart">
+          <a href="/">Keep Shopping</a>
+          <h1>List products in cart</h1>
+          <div class="list">
+            <div class="item">
+              <img src="./img/clothes-2.jpg" alt="cloth" />
+              <div class="info">
+                <div class="name">Product 1</div>
+                <div class="price">Ksh. 200/item</div>
+              </div>
+              <div class="quantity">1</div>
+
+              <div class="returnPrice">Ksh. 500</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <h1>CHECKOUT</h1>
+          <div class="form">
+            <div class="group">
+              <label for="">Full Name</label>
+              <input type="text" name="" id="" />
+            </div>
+
+            <div class="group">
+              <label for="">Phone Number</label>
+              <input type="text" name="" id="" />
+            </div>
+
+            <div class="group">
+              <label for="">Address</label>
+              <input type="text" name="" id="" />
+            </div>
+
+            <div class="group">
+              <label for="">County</label>
+              <select name="" id="">
+                <option value="">Choose...</option>
+                <option value="London">London</option>
+              </select>
+            </div>
+          </div>
+          <div class="return">
+            <div class="row">
+              <div>Total Quantity</div>
+              <div class="totalquantity">60</div>
+            </div>
+            <div class="row">
+              <div>Total Price</div>
+              <div class="totalprice">Ksh. 60</div>
+            </div>
+          </div>
+          <button class="buttonCheckout">COMPLETE ORDER</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- *********************** FOOTER *************** -->
+    <div class="outerfooter">
+      <div class="footer container">
+        <p>&#169; 2024, AndroidExpress. All Rights Reserved</p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************** link to js ********************* -->
+    <script src="./js/checkout .js"></script>
+  </body>
+</html>

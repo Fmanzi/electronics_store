@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="prod.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-image">
+        <img
+          src="[image of Nike Blazer Low '77 Vintage]"
+          alt="Nike Blazer Low '77 Vintage"
+        />
+      </div>
+      <div class="product-info">
+        <h1 class="product-title">Nike Blazer Low '77 Vintage</h1>
+        <p class="product-description">
+          Praised by the streets for its classic simplicity and comfort, the
+          Nike Blazer Low '77 Vintage returns with its low-profile style and
+          heritage b-ball looks.
+        </p>
+        <p class="product-price">$190.20</p>
+        <p class="payment-option">
+          Suggested payments with 6 months special financing
+        </p>
+        <div class="color-selector">
+          <label for="color">Choose a Color:</label>
+          <ul class="color-options">
+            <li class="color-option" data-color="white">White</li>
+            <li class="color-option" data-color="black">Black</li>
+            <li class="color-option" data-color="blue">Blue</li>
+            <li class="color-option" data-color="grey">Grey</li>
+          </ul>
+        </div>
+        <div class="size-selector">
+          <label for="size">Choose a Size:</label>
+          <ul class="size-options">
+            <li class="size-option">37</li>
+            <li class="size-option">38</li>
+            <li class="size-option">39</li>
+            <li class="size-option">40</li>
+            <li class="size-option">41</li>
+            <li class="size-option">42</li>
+            <li class="size-option">43</li>
+            <li class="size-option">44</li>
+          </ul>
+        </div>
+        <div class="quantity-selector">
+          <label for="quantity">Quantity:</label>
+          <div class="quantity-buttons">
+            <button class="decrease">-</button>
+            <input type="number" name="quantity" id="quantity" value="1" />
+            <button class="increase">+</button>
+          </div>
+          <p class="stock-message">Only 12 Items Left! Don't miss it</p>
+        </div>
+        <div class="checkout-buttons">
+          <button class="buy-now">Buy Now</button>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
